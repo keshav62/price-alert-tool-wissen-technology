@@ -1,0 +1,24 @@
+﻿[
+  {
+    "id": "ABC_LEVEL_1",
+    "instrument": "ABC",
+    "type": "level",
+    "direction": "above",
+    "level": 110
+  },
+  {
+    "id": "ABC_MA_1",
+    "instrument": "ABC",
+    "type": "ma_cross",
+    "direction": "above",
+    "short": 2,
+    "long": 3
+  },
+  {
+    "id": "XYZ_LEVEL_1",
+    "instrument": "XYZ",
+    "type": "level",
+    "direction": "below",
+    "level": 210
+  }
+]
