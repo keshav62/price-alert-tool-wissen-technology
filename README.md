@@ -1,4 +1,4 @@
-# Price Alert Tool — Wissen Technology Campus Assessment
+# Price Alert Tool — Wissen Technology
 
 A modular, production-grade Python command-line application that ingests historical daily instrument prices from CSV files, evaluates configurable threshold and technical indicator rules from JSON specifications, detects state-transition crossings, and prints deterministic, formatted alerts.
 
