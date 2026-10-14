@@ -1,0 +1,2 @@
+[console_scripts]
+price-alert = price_alert.cli:main

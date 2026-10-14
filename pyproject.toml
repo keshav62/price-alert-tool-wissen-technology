@@ -1,12 +1,16 @@
+
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "price-alert-tool"
 version = "0.1.0"
 description = "Price Alert Tool — Wissen Technology Campus Assessment"
 requires-python = ">=3.10"
+
+[project.scripts]
+price-alert = "price_alert.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
